@@ -1,5 +1,9 @@
-n= 1
+n = 1
+soma = 0
+
 while n != 0:
-    n = int(input("DIgite um numero:  "))
-    if n == 0:
+    b= int(input("DIgite um numero:  "))
+    if b == 0:
         break
+    soma = soma + b
+print ("A soma total é: ", soma)
